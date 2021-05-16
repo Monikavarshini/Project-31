@@ -53,9 +53,7 @@ function draw() {
     particles.push(new particle(random(width/2-10,width/2+10),10,10))
   }
 
-  textSize(25)
-  text("X:" +mouseX,400,400)
-  text("Y:"+mouseY,420,420)
+  
 
   ground1.display();
 
